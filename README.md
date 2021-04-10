@@ -137,7 +137,12 @@ Trainable params: 21,448,105
 Non-trainable params: 0
 _________________________________________________________________
 ```
-Graphs:
+Metrics:
+
+![image](https://user-images.githubusercontent.com/73401457/114275791-7582f300-9a41-11eb-8c8f-4edfd4e04ae8.png)
+![image](https://user-images.githubusercontent.com/73401457/114275794-787de380-9a41-11eb-844d-75bc505633e5.png)
+
+It achivied an accuracy of 60% before starting to overfit. 25-30 were found to be the ideal number of epochs.
 
 
 ### Transformer Model
