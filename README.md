@@ -181,5 +181,8 @@ Metrics:
 
 Through experimentation, I found that 35 epochs was the ideal, beyond which it started overfitting. Finally, an accuracy of around 65% was achieved.
 
-### Analysis
-Dropping categories and oversampling the remaining ones were the major driving force behind optimising the model. Beyond what was used here, deeper networks didn't show much more improvement. Future lines of improvement could be using Time Series for the LSTM layers.
+### Analysis and Conclusion
+Dropping categories and oversampling the remaining ones were the major driving force behind optimising the model. Beyond what was used here, deeper networks didn't show much more improvement. Working on the model over the duration of this assignment helped hone my text processing skills, experimenting and seeing what sorts of pre-processing work. While the Task draws to a close, there remains much to be learnt.
+
+### Things to improve
+One promising thing to work on which I didn't have the time to finish would be the implementation use of the LSTM model fot Time Series Forecasting. Working with sentences it is natural to use time series, and could improve the model significantly. Besides that, alternative embeddings dropping rare words from the dictionary might help. 
