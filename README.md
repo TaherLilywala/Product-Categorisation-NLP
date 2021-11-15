@@ -1,7 +1,6 @@
-# MIDAS-Task-3
+# Product Categorisation from data scraped from Flipkart
 
 ### Overview
-IIIT-D MIDAS Internship Test Task 3 by Taher Lilywala.
 
 The aim is to predict a Product's Category given its description. Two NLP models, an LSTM and a Transformer have been used to this end. The transformer managed to achieve an accuracy of 65%
 
